@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+	<title>users</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	<table  cellspacing="5" cellpadding="5px"> 
+		<thead>
+			<th>Name</th>
+			<th>Email Addresss</th>
+			<th>Phone</th>
+			<th>Action</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>John Shepard</td>
+				<td>john@gmail.com</td>
+				<td>303102</td>
+				<td><button class="read">Read</button> <button class="edit">Edit</button> <button class="delete">Delete</button></td>
+			</tr>
+			<tr>
+				<td>Liara T'Soni</td>
+				<td>liara@gmail.com</td>
+				<td>202405</td>
+				<td><button class="read">Read</button> <button class="edit">Edit</button> <button class="delete">Delete</button></td>	
+			</tr>
+			<tr>
+				<td>Aria T'Loak</td>
+				<td>aria@gmail.com</td>
+				<td>909202</td>
+				<td><button class="read">Read</button> <button class="edit">Edit</button> <button class="delete">Delete</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="user_details">
+		<ul id="list">
+			<li>Name: <span class="name"></span></li>
+			<li>Email: <span class="email"></span></li>
+			<li>Phone: <span class="phone"></span></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

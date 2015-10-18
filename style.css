@@ -1,0 +1,51 @@
+body{
+	background-color: #40476D;
+	color:#EB6534;	
+}
+
+table, th, td{
+	border:1px solid #EB6534;
+}
+table{
+	margin:auto;
+}
+
+.read{
+	background-color: #275DAD;
+	color:#fff;
+	padding:5px;
+}
+.edit{
+	background-color: #4FB286;
+	color:#fff;
+	padding: 5px;
+}
+.editing{
+	background-color: #93E5AB;
+	color:#fff;
+	padding: 5px;
+}
+.delete{
+	background-color: #C2095A;
+	color:#fff;
+	padding: 5px;
+}
+
+.user_details{
+	display: none;
+	border: 1px solid #EB6534;
+	height: 120px;
+	width: 500px;
+	margin: 80px auto 0 auto;
+}
+
+#list{
+	list-style: none;	
+}
+#list li{
+	margin-top: 10px;
+}
+
+.active{
+
+}
